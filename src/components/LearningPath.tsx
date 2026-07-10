@@ -199,7 +199,7 @@ export default function LearningPath({ studentGrade, progress, onUpdateProgress 
             <BookOpen className="w-5 h-5" />
           </div>
           <div>
-            <div className="text-xs text-slate-400 font-semibold uppercase">Đang theo học</div>
+            <div className="text-xs text-slate-400 font-semibold">Đang theo học</div>
             <div className="text-base font-bold text-slate-800">Chương trình Lớp {selectedGrade}</div>
           </div>
         </div>
@@ -209,7 +209,7 @@ export default function LearningPath({ studentGrade, progress, onUpdateProgress 
             <CheckCircle className="w-5 h-5" />
           </div>
           <div>
-            <div className="text-xs text-slate-400 font-semibold uppercase">Bài học hoàn thành</div>
+            <div className="text-xs text-slate-400 font-semibold">Bài học hoàn thành</div>
             <div className="text-base font-bold text-slate-800">
               {progress.completedLessonIds.filter(id => {
                 const lesson = DEFAULT_LESSONS.find(l => l.id === id);
@@ -224,7 +224,7 @@ export default function LearningPath({ studentGrade, progress, onUpdateProgress 
             <Award className="w-5 h-5" />
           </div>
           <div>
-            <div className="text-xs text-slate-400 font-semibold uppercase">Danh hiệu hiện tại</div>
+            <div className="text-xs text-slate-400 font-semibold">Danh hiệu hiện tại</div>
             <div className="text-base font-bold text-slate-800">
               {progress.completedLessonIds.length >= 3 ? 'Trí Giả Văn Khoa' : 'Học Sĩ Khởi Đầu'}
             </div>
