@@ -454,7 +454,7 @@ export default function EssayPractice({
           <div className="lg:col-span-1 space-y-4">
             {/* Prompt details */}
             <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm space-y-3">
-              <h4 className="font-bold text-slate-800 text-xs uppercase tracking-wider text-blue-600">Đề bài đang viết:</h4>
+              <h4 className="font-bold text-slate-800 text-xs tracking-wider text-blue-600">Đề bài đang viết:</h4>
               <h3 className="font-bold text-slate-800 text-sm leading-snug">
                 {selectedTopic?.title}
               </h3>
@@ -466,7 +466,7 @@ export default function EssayPractice({
             {/* Quick Suggested Outline Helper checklist */}
             {selectedTopic?.suggestedOutline && (
               <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm space-y-3 h-[390px] flex flex-col">
-                <h4 className="font-bold text-slate-800 text-xs uppercase tracking-wider text-amber-600 shrink-0 flex items-center space-x-1">
+                <h4 className="font-bold text-slate-800 text-xs tracking-wider text-amber-600 shrink-0 flex items-center space-x-1">
                   <Bookmark className="w-3.5 h-3.5" />
                   <span>Nhắc nhở dàn ý mẫu cần đạt:</span>
                 </h4>
@@ -546,7 +546,7 @@ export default function EssayPractice({
                     
                     {/* Structure score card */}
                     <div className="bg-slate-50 p-4 rounded-xl border border-slate-200 space-y-1.5">
-                      <div className="flex items-center space-x-2 font-bold text-slate-800 text-xs uppercase tracking-wider text-blue-600">
+                      <div className="flex items-center space-x-2 font-bold text-slate-800 text-xs tracking-wider text-blue-600">
                         <FileText className="w-4 h-4" />
                         <span>Bố cục & Liên kết ý</span>
                       </div>
@@ -557,7 +557,7 @@ export default function EssayPractice({
 
                     {/* Logic score card */}
                     <div className="bg-slate-50 p-4 rounded-xl border border-slate-200 space-y-1.5">
-                      <div className="flex items-center space-x-2 font-bold text-slate-800 text-xs uppercase tracking-wider text-amber-600">
+                      <div className="flex items-center space-x-2 font-bold text-slate-800 text-xs tracking-wider text-amber-600">
                         <TrendingUp className="w-4 h-4" />
                         <span>Tư duy lập luận & Dẫn chứng</span>
                       </div>
@@ -568,7 +568,7 @@ export default function EssayPractice({
 
                     {/* Vocabulary card */}
                     <div className="bg-slate-50 p-4 rounded-xl border border-slate-200 space-y-1.5">
-                      <div className="flex items-center space-x-2 font-bold text-slate-800 text-xs uppercase tracking-wider text-purple-600">
+                      <div className="flex items-center space-x-2 font-bold text-slate-800 text-xs tracking-wider text-purple-600">
                         <BookOpen className="w-4 h-4" />
                         <span>Vốn từ vựng & Sức biểu cảm</span>
                       </div>
@@ -579,7 +579,7 @@ export default function EssayPractice({
 
                     {/* Grammar card */}
                     <div className="bg-slate-50 p-4 rounded-xl border border-slate-200 space-y-1.5">
-                      <div className="flex items-center space-x-2 font-bold text-slate-800 text-xs uppercase tracking-wider text-emerald-600">
+                      <div className="flex items-center space-x-2 font-bold text-slate-800 text-xs tracking-wider text-emerald-600">
                         <AlertTriangle className="w-4 h-4" />
                         <span>Chính tả, đặt câu & Ngữ pháp</span>
                       </div>
