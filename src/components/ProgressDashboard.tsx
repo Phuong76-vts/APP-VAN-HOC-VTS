@@ -237,7 +237,7 @@ export default function ProgressDashboard({ progress, submissions, setActiveTab 
             <BarChart3 className="w-5 h-5" />
           </div>
           <div>
-            <div className="text-xs font-bold text-slate-400 uppercase tracking-wider">Đã luyện viết</div>
+            <div className="text-xs font-bold text-slate-400 tracking-wider">Đã luyện viết</div>
             <div className="text-2xl font-extrabold text-slate-800">{progress.totalAttempts} bài</div>
           </div>
         </div>
@@ -247,7 +247,7 @@ export default function ProgressDashboard({ progress, submissions, setActiveTab 
             <Award className="w-5 h-5" />
           </div>
           <div>
-            <div className="text-xs font-bold text-slate-400 uppercase tracking-wider">Điểm trung bình</div>
+            <div className="text-xs font-bold text-slate-400 tracking-wider">Điểm trung bình</div>
             <div className="text-2xl font-extrabold text-slate-800">{progress.averageScore || 'N/A'}/10</div>
           </div>
         </div>
@@ -257,7 +257,7 @@ export default function ProgressDashboard({ progress, submissions, setActiveTab 
             <Flame className="w-5 h-5" />
           </div>
           <div>
-            <div className="text-xs font-bold text-slate-400 uppercase tracking-wider">Học tập đều đặn</div>
+            <div className="text-xs font-bold text-slate-400 tracking-wider">Học tập đều đặn</div>
             <div className="text-2xl font-extrabold text-slate-800">{progress.streakDays} ngày liên tiếp</div>
           </div>
         </div>
@@ -267,7 +267,7 @@ export default function ProgressDashboard({ progress, submissions, setActiveTab 
             <BookmarkCheck className="w-5 h-5" />
           </div>
           <div>
-            <div className="text-xs font-bold text-slate-400 uppercase tracking-wider">Bài học đã thuộc</div>
+            <div className="text-xs font-bold text-slate-400 tracking-wider">Bài học đã thuộc</div>
             <div className="text-2xl font-extrabold text-slate-800">{progress.completedLessonIds.length} bài</div>
           </div>
         </div>
