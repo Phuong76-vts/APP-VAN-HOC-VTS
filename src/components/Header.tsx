@@ -151,7 +151,7 @@ export default function Header({
   // Render phần chọn model dạng Cards
   const ModelCards = () => (
     <div className="space-y-2">
-      <label className="text-xs font-bold text-slate-600 uppercase tracking-wider">Chọn Model AI:</label>
+      <label className="text-xs font-bold text-slate-600 tracking-wider">Chọn Model AI:</label>
       <div className="space-y-2">
         {AI_MODELS.map(model => {
           const info = AI_MODEL_LABELS[model];
@@ -361,7 +361,7 @@ export default function Header({
             <div className="p-6 space-y-6 max-h-[80vh] overflow-y-auto">
               {/* API Key */}
               <div className="space-y-3">
-                <h4 className="font-bold text-sm text-slate-800 uppercase tracking-wider flex items-center space-x-2">
+                <h4 className="font-bold text-sm text-slate-800 tracking-wider flex items-center space-x-2">
                   <Key className="w-4 h-4 text-blue-600" />
                   <span>Gemini API Key</span>
                 </h4>
@@ -413,7 +413,7 @@ export default function Header({
 
               {/* Profile */}
               <div className="space-y-3">
-                <h4 className="font-bold text-sm text-slate-800 uppercase tracking-wider flex items-center space-x-2">
+                <h4 className="font-bold text-sm text-slate-800 tracking-wider flex items-center space-x-2">
                   <GraduationCap className="w-4 h-4 text-amber-500" />
                   <span>Hồ sơ người học</span>
                 </h4>
@@ -448,7 +448,7 @@ export default function Header({
 
               {/* Backup & Restore */}
               <div className="space-y-3">
-                <h4 className="font-bold text-sm text-slate-800 uppercase tracking-wider flex items-center space-x-2">
+                <h4 className="font-bold text-sm text-slate-800 tracking-wider flex items-center space-x-2">
                   <Download className="w-4 h-4 text-emerald-600" />
                   <span>Sao lưu & Khôi phục</span>
                 </h4>
