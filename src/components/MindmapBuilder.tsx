@@ -297,7 +297,7 @@ export default function MindmapBuilder({ progress, onUpdateProgress, studentGrad
         {/* Left pane: Control setup */}
         <div className="lg:col-span-1 space-y-4">
           <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm space-y-4">
-            <h3 className="font-bold text-slate-800 text-sm uppercase tracking-wider flex items-center space-x-2">
+            <h3 className="font-bold text-slate-800 text-sm tracking-wider flex items-center space-x-2">
               <Sparkles className="w-4 h-4 text-blue-600" />
               <span>Thiết lập đề bài làm văn</span>
             </h3>
@@ -353,7 +353,7 @@ export default function MindmapBuilder({ progress, onUpdateProgress, studentGrad
 
           {/* Saved outlines collection */}
           <div className="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm space-y-3">
-            <h3 className="font-bold text-slate-800 text-sm uppercase tracking-wider flex items-center space-x-2">
+            <h3 className="font-bold text-slate-800 text-sm tracking-wider flex items-center space-x-2">
               <Save className="w-4 h-4 text-emerald-600" />
               <span>Kho lưu dàn ý của em ({progress.savedOutlines.length})</span>
             </h3>
@@ -468,7 +468,7 @@ export default function MindmapBuilder({ progress, onUpdateProgress, studentGrad
 
                 {/* Right panel: Selected Node Configurations & Notes */}
                 <div className="w-full md:w-64 border-t md:border-t-0 md:border-l border-slate-200 p-4 space-y-4 bg-white shrink-0">
-                  <div className="flex items-center space-x-2 pb-1 border-b border-slate-100 text-slate-800 font-bold text-xs sm:text-sm uppercase tracking-wider">
+                  <div className="flex items-center space-x-2 pb-1 border-b border-slate-100 text-slate-800 font-bold text-xs sm:text-sm tracking-wider">
                     <ListChecks className="w-4 h-4 text-blue-500" />
                     <span>Cấu hình ý đã chọn</span>
                   </div>
@@ -477,7 +477,7 @@ export default function MindmapBuilder({ progress, onUpdateProgress, studentGrad
                     <div className="space-y-4">
                       {/* 1. Label edit */}
                       <div className="space-y-1">
-                        <label className="text-[11px] font-bold text-slate-500 uppercase">Nội dung ý kiến:</label>
+                        <label className="text-[11px] font-bold text-slate-500">Nội dung ý kiến:</label>
                         <input
                           type="text"
                           value={selectedNode.label}
@@ -488,7 +488,7 @@ export default function MindmapBuilder({ progress, onUpdateProgress, studentGrad
 
                       {/* 2. Study notes edit */}
                       <div className="space-y-1">
-                        <label className="text-[11px] font-bold text-slate-500 uppercase">Ghi chú viết (Gợi ý sâu):</label>
+                        <label className="text-[11px] font-bold text-slate-500">Ghi chú viết (Gợi ý sâu):</label>
                         <textarea
                           value={noteText}
                           onChange={(e) => handleUpdateNodeNotes(e.target.value)}
