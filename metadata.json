@@ -1,0 +1,6 @@
+{
+  "name": "Học Tốt Ngữ Văn THCS GDPT 2018",
+  "description": "Ứng dụng học tập thông minh môn Ngữ văn THCS chuẩn chương trình GDPT 2018, hỗ trợ lập dàn ý, gợi ý từ vựng chuyên sâu, sửa lỗi diễn đạt và ôn thi vào lớp 10.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
